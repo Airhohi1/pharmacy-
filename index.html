@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy|Become our Partner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex justify-between box-border">
+        <div class="w-[45%] bg-blue-600 text-white h-[150vh] p-4 pb-20 mr-4 fixed top-0 left-0 overflow-y-hidden">
+            <br>
+            <br>
+            <br>
+            <a href="#" class="back-button inline-block text-black w-10 h-10 leading-10 text-center rounded-full border-2 text-3xl bg-white">
+                &#8592;
+              </a>
+             <br>
+             <br>
+             <br>
+             <nav class="flex items-center">
+                <a href="#" class="text-white text-xl no-underline hover:underline">Home</a>
+                <span class="text-white text-xl mx-2">&gt;</span>
+                <a href="#" class="text-white text-xl no-underline ml-4 hover:underline">Partner Sign Up</a>
+                <span class="text-white text-xl mx-2">&gt;</span>
+                <a href="#" class="text-white text-xl no-underline hover:underline">PHARMACY</a>
+              </nav>
+            <br>
+            <br>
+            <h2 class="text-white text-2xl ml-5">Bring Pharmachain <br> Solution Close To You</h2>
+            <br>
+            <br>
+            <p class="text-white text-lg leading-relaxed ml-4">
+                Collaborate with us to provide <br> medications for your client, tell us what <br> you want and how we can help you <br> make ordering drugs for clients easy.
+              </p>
+        </div>
+        <div class="box w-1/2 bg-white h-screen/2 p-4 border rounded-lg mx-auto mt-8 mr-8 mb-20">
+        <h1 class="text-3xl font-light">Sign Up Details</h1>
+        <form id="signupForm">
+            <div class="flex items-center justify-between flex-wrap">
+                <div class="flex flex-col w-[48%] font-poppins text-base rounded-lg">
+                    <label for="name-of-pharmacy">Name of Pharmacy</label>
+                    <input type="text" id="name-of-pharmacy" name="PharmacyName" class="relative h-10 rounded-md px-4 py-2 border border-gray-300 text-sm outline-none mt-1 mb-1 box-border w-[100%]">
+                </div>
+                <div class="flex flex-col w-[48%] font-poppins text-base rounded-lg">
+                    <label for="name-of-contact-person">Name of contact person</label>
+                    <input type="text" id="name-of-contact-person" name="ContactName" class="relative h-10 rounded-md px-4 py-2 border border-gray-300 text-sm outline-none mt-1 mb-1 box-border w-[100%]">
+                </div>
+            </div>
+            <div class="flex items-center justify-between flex-wrap">
+                <div class="flex flex-col w-[48%] font-poppins text-base rounded-lg">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="Email" class="relative h-10 rounded-md px-4 py-2 border border-gray-300 text-sm outline-none mt-1 mb-1 box-border w-[100%]">                
+              </div>
+              <div class="flex flex-col w-[48%] font-poppins text-base rounded-lg">
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" name="PhoneNumber" class="relative h-10 rounded-md px-4 py-2 border border-gray-300 text-sm outline-none mt-1 mb-1 box-border w-[100%]">
+             </div>
+         </div>
+         <div class="flex items-center justify-between flex-wrap">
+            <div class="flex flex-col w-[48%] font-poppins text-base rounded-lg">
+                <label for="license-number">License Number</label>
+                <input type="text" id="license-number" name="LicenseFile" class="relative h-10 rounded-md px-4 py-2 border border-gray-300 text-sm outline-none mt-1 mb-1 box-border w-[200%]"> 
+             </div>
+            </div>
+            <h2>Are you the owner of this pharmacy?</h2>
+            <div class="pharmacy-option" style="display: inline-flex; flex-direction: row; gap: 7px;">
+                <div class="Pharm-owner">
+                    <input type="radio" value="true" id="check-yes" name="AreYouPharmacyOwner" checked/>
+                    <label for="check-yes">Yes</label>
+                </div>
+                <div class="Pharm-owner">
+                    <input type="radio" value="false" id="check-no" name="AreYouPharmacyOwner"/>
+                    <label for="check-no">No</label>
+                </div>
+            </div> 
+            <div class="flex items-center justify-between flex-wrap">
+                <div class="flex flex-col w-[48%] font-poppins text-base rounded-lg">
+                    <label for="contact-info">Contact Information</label>
+                    <select id="state" name="State" class="relative h-10 rounded-md px-4 py-2 border border-gray-300 text-sm outline-none mt-1 mb-1 box-border w-[100%]">
+                      <option value=""disabled selected>Search States..</option>
+                      <option value="abia">Abia</option>
+                      <option value="adamawa">Adamawa</option>
+                      <option value="akwa-ibom">Akwa Ibom</option>
+                      <option value="anambra">Anambra</option>
+                      <option value="bauchi">Bauchi</option>
+                      <option value="bayelsa">Bayelsa</option>
+                      <option value="benue">Benue</option>
+                      <option value="borno">Borno</option>
+                      <option value="cross-river">Cross River</option>
+                      <option value="delta">Delta</option>
+                      <option value="ebonyi">Ebonyi</option>
+                      <option value="edo">Edo</option>
+                      <option value="ekiti">Ekiti</option>
+                      <option value="enugu">Enugu</option>
+                      <option value="gombe">Gombe</option>
+                      <option value="imo">Imo</option>
+                      <option value="jigawa">Jigawa</option>
+                      <option value="kaduna">Kaduna</option>
+                      <option value="kano">Kano</option>
+                      <option value="katsina">Katsina</option>
+                      <option value="kebbi">Kebbi</option>
+                      <option value="kogi">Kogi</option>
+                      <option value="kwara">Kwara</option>
+                      <option value="lagos">Lagos</option>
+                      <option value="nasarawa">Nasarawa</option>
+                      <option value="niger">Niger</option>
+                      <option value="ogun">Ogun</option>
+                      <option value="ondo">Ondo</option>
+                      <option value="osun">Osun</option>
+                      <option value="oyo">Oyo</option>
+                      <option value="plateau">Plateau</option>
+                      <option value="rivers">Rivers</option>
+                      <option value="sokoto">Sokoto</option>
+                      <option value="taraba">Taraba</option>
+                      <option value="yobe">Yobe</option>
+                      <option value="zamfara">Zamfara</option>
+                  </select>           
+                  </div>
+                  <div class="flex flex-col w-[48%] font-poppins text-base rounded-lg">
+                    <input type="text" id="lga" name="LocalGovernment" placeholder="Select LGA (Must choose a state first)" class="relative h-10 rounded-md px-4 py-2 border border-gray-300 text-sm outline-none mt-1 mb-1 box-border w-[100%]">
+                    </div>
+                </div>
+                <div class="nex-form">
+                    <div class="form-group">
+                 <input type="text" id="street-address" name="Address" placeholder="Street Address" class="relative h-10 rounded-md px-4 py-2 border border-gray-300 text-sm outline-none mt-1 mb-1 box-border w-[100%]">
+                    </div>
+            </div>
+            <h3>Pharmachain is free to use but we take 10% of the cost only when a sale is made. Do you agree to this?</h3>
+            <div class="pharmacy-option" style="display: inline-flex; flex-direction: row; gap: 7px;">
+                <div class="Pharm-owner">
+                    <input type="radio" value="true" id="check-yes" name="AgreementToPay"/>
+                    <label for="check-yes">Yes</label>
+                </div>
+                <div class="Pharm-owner">
+                    <input type="radio" value="false" id="check-no" name="AgreementToPay"/>
+                    <label for="check-no">No</label>
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="submit" class="w-40 py-2.5 bg-blue-600 text-white border-none flex items-center outline-none rounded-full cursor-pointer text-xl h-4 mt-4 transition-colors duration-300 ease-in-out hover:bg-blue-700">
+                    Apply
+                </button>
+            </div>
+            </form>
+            <div class="terms mt-2 text-lg">
+                By clicking 'Apply', you agree to our <a href="#" class="text-blue-600 hover:underline">Terms and Conditions</a>
+            </div>
+                <div class="login-link mt-6">
+                    Already have an account? <a href="#" class="text-lg no-underline hover:underline">Login</a>
+                </div>
+      </div>
+   </div>
+
+   <script>
+    const form = document.getElementById("signupForm");
+    form.addEventListener("submit",(e)=>{
+        e.preventDefault(); // Prevent the default form submission
+        const formData = new FormData(e.target);
+        const formDataObj = Object.fromEntries(formData.entries());
+        const jsonString = JSON.stringify(formDataObj);
+        alert(jsonString);
+        
+       axios.post('https://pharmachainnigltd-1.onrender.com/api/Pharmacy/CreatePharmacy', formDataObj)
+        .then(response => {
+            // Handle success
+            alert(JSON.stringify(response.data));
+            window.location.href = "/Pharmacy2.html";
+        })
+        .catch(error => {
+            // Handle error
+            alert(JSON.stringify(error));
+        });
+    });
+        
+</script>
+</body>
+</html>
